@@ -1,6 +1,108 @@
+/*Algemeen*/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box  ;
     width: auto;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #FFFF, #CCF5C4);
+}
+
+.logo {
+    justify-content: center;
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(Comfortaa/static/Comfortaa-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+h1, h2, ul {
+    font-family: 'Comfortaa';
+}
+
+p {
+    padding: 10px;
+    font-family: 'Work Sans';
+    background-color: #C4F5DE;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 12px;
+    
+}
+
+
+/*Nav*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+ul {
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FFFF;
+}
+
+
+/*Overig*/
+
+ul, section {
+    display: flex;
+}
+
+h1 {
+    margin: 40px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin: 25px 40px 70px 40px;
+}
+
+section img {
+    justify-content: center;
+}
+
+/*a*/
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.bloem {
+    border-radius: 25px;
+    padding-top: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 10px;
 }
