@@ -14,12 +14,12 @@ body {
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url(Comfortaa/static/Comfortaa-Medium.ttf);
+    src: url(../fonts/Comfortaa/static/Comfortaa-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(Work_Sans/static/WorkSans-Regular.ttf);
+    src: url(../fonts/Work_Sans/static/WorkSans-Regular.ttf);
 }
 
 h1, h2, ul {
