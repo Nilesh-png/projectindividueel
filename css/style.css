@@ -12,12 +12,6 @@ body {
     background-image: linear-gradient(to bottom, #FFFF, #CCF5C4);
 }
 
-.logo {
-    justify-content: center;
-    margin-left: 24px;
-    margin-bottom: 40px;
-}
-
 @font-face {
     font-family: 'Comfortaa';
     src: url(Comfortaa/static/Comfortaa-Medium.ttf);
@@ -32,17 +26,6 @@ h1, h2, ul {
     font-family: 'Comfortaa';
 }
 
-p {
-    padding: 10px;
-    font-family: 'Work Sans';
-    background-color: #C4F5DE;
-    border: 1px solid #000000;
-    border-radius: 15px;
-    margin: 10px;
-    font-size: 12px;
-    
-}
-
 
 /*Nav*/
 
@@ -52,6 +35,10 @@ footer {
     width: 100vw;
 }
 
+div, ul {
+    display: flex;
+}
+
 ul {
     justify-content: space-around;
     align-items: center;
@@ -59,10 +46,9 @@ ul {
 }
 
 li {
-    align-items: center;
     padding: 5px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid #000000;
+    border-radius: 15px;
     background-color: #FFFF;
     padding-left: 10px;
     padding-right: 10px;
@@ -71,34 +57,41 @@ li {
 
 /*Overig*/
 
-ul, section {
-    display: flex;
-}
-
-h1 {
-    margin: 40px;
-}
-
-h2 {
-    margin-bottom: 30px;
+section {
+    margin: 25px 40px 70px 40px;
 }
 
 h1, h2 {
     text-align: center;
 }
 
-section {
-    margin: 25px 40px 70px 40px;
+h1 {
+    margin: 40px;
 }
 
-section img {
-    justify-content: center;
+h2, .home {
+    margin-bottom: 20px;
 }
 
-/*a*/
-a{
-    color: #000000;
-    text-decoration: none;
+p {
+    padding: 15px;
+    font-family: 'Work Sans';
+    background-color: #C4F5DE;
+    border: 1px solid #000000;
+    margin: 10px;
+    font-size: 12px;
+    
+}
+
+p, .afbeeldingen {
+    border-radius: 15px;
+}
+
+
+/*Classes*/
+
+.logo {
+    margin: 25px 0px 40px 38px
 }
 
 .bloem {
@@ -107,4 +100,22 @@ a{
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 10px;
+}
+
+.afbeeldingen {
+    max-height: 200px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+}
+
+.duurzaamimg {
+    display: inline;
+}
+
+
+/*a*/
+
+a{
+    color: #000000;
+    text-decoration: none;
 }
